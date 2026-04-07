@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
-import project1Img from "@/assets/project1.jpg";
-import project2Img from "@/assets/project2.jpg";
-import project3Img from "@/assets/project3.jpg";
+import brandio from "@/assets/brandio.png"
+import dfte from "@/assets/dfte.png"
+import portfolio from "@/assets/portfolio.png"
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 20 },
@@ -17,9 +17,8 @@ const projects = [
     description:
       "An AI-powered brand identity engine that generates logo variations, color palettes, typography systems, and real-world mockups within seconds. Designed with a clean, premium UI and supports high-quality PNG & JPG exports in multiple sizes.",
     tech: ["Next.js", "Gemini API", "Tailwind CSS", "AI Integration"],
-    image: "/public/brandio.png",
-    // github: "https://github.com/iqrahassan",
-    // live: "https://example.com",
+    image: brandio,
+   
   },
 
 
@@ -30,9 +29,8 @@ const projects = [
       "An AI ‘Digital Full-Time Employee’ that autonomously handles tasks, monitors apps, makes decisions, and delivers automated workflows like reporting and CEO briefings",
     tech: ["Claude Code","Obsidian","Python","MCP (Model Context Protocol)", "AI Agents", "Automation",
     ],
-    image: "/public/dfte.png",
-    // github: "https://github.com/iqrahassan074/gold_tier",
-    // live: "#",
+    image: dfte,
+    
   },
 
 
@@ -42,9 +40,8 @@ const projects = [
     description:
       "A dynamic portfolio generator that allows users to instantly create responsive portfolio websites with modern layouts and clean UI. Built for developers to quickly showcase their work.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "UI/UX"],
-    image: "/public/portfolio.png",
-    // github: "https://github.com/iqrahassan",
-    // live: "https://portfolio-template-generator.vercel.app/",
+    image: portfolio,
+   
   },
 ];
 
