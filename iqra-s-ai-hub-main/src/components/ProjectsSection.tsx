@@ -38,7 +38,7 @@ const projects = [
   {
     title: "Portfolio Template Generator",
     description:
-      "A dynamic portfolio generator that allows users to instantly create responsive portfolio websites with modern layouts and clean UI. Built for developers to quickly showcase their work.",
+      "A dynamic portfolio template generator that creates clean, modern SVG images of portfolio designs. Users can customize layouts and instantly download professional-looking portfolio visuals for showcasing work.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "UI/UX"],
     image: portfolio,
    
